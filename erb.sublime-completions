@@ -1,0 +1,26 @@
+{
+  "scope": "text.html.ruby source.ruby.rails.embedded.html",
+
+  "completions":
+  [
+    { "trigger": "lorem_image", "contents": "lorem_image('$1', :random_color => true)" },
+    { "trigger": "lorem_email", "contents": "lorem_email" },
+    { "trigger": "lorem_date", "contents": "lorem_date" },
+
+    { "trigger": "lorem_name", "contents": "lorem_name" },
+    { "trigger": "lorem_first_name", "contents": "lorem_first_name" },
+    { "trigger": "lorem_last_name", "contents": "lorem_last_name" },
+    { "trigger": "zh_lorem_name", "contents": "zh_lorem_name" },
+    { "trigger": "zh_lorem_first_name", "contents": "zh_lorem_first_name" },
+    { "trigger": "zh_lorem_last_name", "contents": "zh_lorem_last_name" },
+
+    { "trigger": "lorem_paragraphs", "contents": "lorem_paragraphs $1" },
+    { "trigger": "lorem_sentences", "contents": "lorem_sentences $1" },
+    { "trigger": "lorem_words", "contents": "lorem_words $1" },
+    { "trigger": "zh_lorem_paragraphs", "contents": "zh_lorem_paragraphs $1" },
+    { "trigger": "zh_lorem_sentences", "contents": "zh_lorem_sentences $1" },
+    { "trigger": "zh_lorem_words", "contents": "zh_lorem_words $1" },
+
+    { "trigger": "limg", "contents": "lorem_image('$1', :random_color => true)" }
+  ]
+}
